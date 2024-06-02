@@ -8,7 +8,7 @@ export default defineConfig({
   cacheDir: './node_modules/.vite/nx-react-2024-06-01',
 
   server: {
-    port: 4200,
+    port: 4240,
     host: 'localhost',
   },
 
