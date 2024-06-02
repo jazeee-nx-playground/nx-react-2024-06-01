@@ -9,7 +9,7 @@ export function TestPage() {
           alert('Hello World Again');
         }}
       >
-        Show Hello World
+        Hello World
       </Button>
     </div>
   );
