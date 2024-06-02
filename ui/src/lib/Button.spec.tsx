@@ -9,7 +9,9 @@ describe('Button', () => {
         onClick={() => {
           // noop
         }}
-      />
+      >
+        Test
+      </Button>
     );
     expect(baseElement).toBeTruthy();
   });
