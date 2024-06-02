@@ -6,7 +6,7 @@ export function TestPage() {
       This is a test{' '}
       <Button
         onClick={() => {
-          alert('Hello World!');
+          alert('Hello World Again');
         }}
       >
         Show Hello World
