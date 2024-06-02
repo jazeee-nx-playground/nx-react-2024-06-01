@@ -31,7 +31,8 @@ jobs:
       - run: npm ci
       - uses: nrwl/nx-set-shas@v4
 
+      - name: Install playwright browsers
+        run: npx playwright install --with-deps
       # Prepend any command with "nx-cloud record --" to record its logs to Nx Cloud
-      - run: npx playwright install
       - run: npx nx affected -t lint test build
       - run: npx nx affected --parallel 1 -t e2e-ci
