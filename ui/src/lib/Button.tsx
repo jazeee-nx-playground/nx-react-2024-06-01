@@ -1,6 +1,6 @@
 export interface ButtonProps {
   onClick: () => void;
-  children?: React.ReactNode;
+  children: React.ReactNode;
 }
 
 export function Button(props: ButtonProps) {
