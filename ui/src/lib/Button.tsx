@@ -1,9 +1,10 @@
-export interface ButtonProps {
-  onClick: () => void;
+import { Button, type ButtonProps } from '@mui/material';
+
+export interface SpecialButtonProps extends ButtonProps {
+  variant: 'contained' | 'outlined';
   children: React.ReactNode;
 }
 
-export function Button(props: ButtonProps) {
-  const { onClick, children } = props;
-  return <button onClick={onClick}>{children}</button>;
+export function SpecialButton(props: SpecialButtonProps) {
+  return <Button {...props} />;
 }

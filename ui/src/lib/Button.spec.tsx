@@ -1,17 +1,18 @@
 import { render } from '@testing-library/react';
 
-import { Button } from './Button';
+import { SpecialButton } from './Button';
 
 describe('Button', () => {
   it('should render successfully', () => {
     const { baseElement } = render(
-      <Button
+      <SpecialButton
+        variant="contained"
         onClick={() => {
           // noop
         }}
       >
         Test
-      </Button>
+      </SpecialButton>
     );
     expect(baseElement).toBeTruthy();
   });
