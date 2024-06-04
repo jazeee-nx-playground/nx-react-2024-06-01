@@ -1,5 +1,9 @@
 # NxReact20240601
 
+## Demo Video
+
+- <https://www.loom.com/share/80edcd38e8c04f82814da6fccc70945c>
+
 ## Creation Steps
 
 ```sh

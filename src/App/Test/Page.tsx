@@ -1,16 +1,17 @@
-import { Button } from '@nx-react-2024-06-01/ui';
+import { SpecialButton } from '@nx-react-2024-06-01/ui';
 
 export function TestPage() {
   return (
     <div>
       This is a test{' '}
-      <Button
+      <SpecialButton
+        variant="contained"
         onClick={() => {
           alert('Hello World Again');
         }}
       >
         Hello World
-      </Button>
+      </SpecialButton>
     </div>
   );
 }
